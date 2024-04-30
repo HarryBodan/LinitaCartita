@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linita Bonita</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="src/title.png" type="image/png">
+</head>
+<body style="background: url('src/Flowers.png')">
+    <div class="container"">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Linita bonita:</strong>
+                        <p style="text-align: justify;">
+                            Tu risa contagiosa, tu manera apasionada de hablar sobre las cosas que te importan, y tu inigualable belleza, me tienen <strong>completamente enamorado</strong>.
+                            Cada vez que te veo, siento una conexión especial que no puedo ignorar. Eres única, y quiero que sepas que <strong>me gustas</strong>, <strong>me encantas</strong>
+                            y <strong>sos la muchacha mas hermosa que he conocido</strong>. 
+                            <p style="text-align: center;">❤️Te quiero mucho🩵</p>
+                            <p style="text-align: center;">I🥖u</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+        //Probando
+    </script>
+</body>
+</html>
